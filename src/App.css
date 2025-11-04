@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f3f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #1877f2;
+  text-align: center;
+}
+
+.post-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.post-form button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #0d65d9;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.post-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
