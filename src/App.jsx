@@ -6,7 +6,7 @@ function App() {
   const [content, setContent] = useState("");
   const [imageUrl, setImageUrl] = useState("");
 
-  const backendUrl = "https://facebook-api-k71o.onrender.com";
+  const backendUrl = "https://facebook-api-k71o.onrender.com/api/posts";
 
   // Fetch posts
   useEffect(() => {
